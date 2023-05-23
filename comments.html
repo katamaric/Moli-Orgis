@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comments</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.6.0/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="navbar.html">Navbar
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="footer.html">Footer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="authentification_form.html">Forms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="banner.html">Banner</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="event_cards.html">Cards</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comments.html">Comments</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Presentation</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="presentation_resources.html">Resources</a>
+                <a class="dropdown-item" href="presentation_element.html">Elements</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="notifications.html">Surprise !</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="comment-section mb-3 mt-4" style="max-width: 800px;">
+            <h3>This is how your comment section would look like.</h3>
+            <br>
+
+            <div class="comment-form">
+              <textarea class="form-control comment-textarea" placeholder="Your comment"></textarea>
+              <button class="btn btn-primary comment-button mt-2">Comment</button>
+            </div>
+
+            <div class="comment-list">
+              <!-- Insert comment molecules here to display the list of comments -->
+              <div class="comment mb-3 mt-4">
+                <div class="comment-author">
+                  <img src="https://media.istockphoto.com/id/1145183412/photo/close-up-dog-super-hero-costume-labrador-retriever-wearing-a-black-mask-and-a-cape-carnival.jpg?b=1&s=612x612&w=0&k=20&c=GzjUrNpoWjVCPHBv5zHChHg770faPqA9PGkzruNGP5E=" alt="Author's Photo" class="comment-author-photo small-avatar">
+                  <span class="comment-author-name">Author's Name</span>
+                </div>
+                <div class="comment-content">
+                  <p>Comment content goes here.</p>
+                  <span class="comment-time">Posted time</span>
+                </div>
+              </div>
+    
+              <div class="comment mb-3 mt-4">
+                <div class="comment-author">
+                  <img src="https://media.istockphoto.com/id/1154370446/photo/funny-raccoon-in-green-sunglasses-showing-a-rock-gesture-isolated-on-white-background.jpg?b=1&s=612x612&w=0&k=20&c=glDvyRCk4v-nNSZiGk8w6-Xn2iMG1Z1_4kyMqAZxoC8=" alt="Author's Photo" class="comment-author-photo small-avatar">
+                  <span class="comment-author-name">Author's Name</span>
+                </div>
+                <div class="comment-content">
+                  <p>Comment content goes here.</p>
+                  <span class="comment-time">Posted time</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>
